@@ -1,0 +1,14 @@
+[ 2020-07-17T03:04:21+00:00 ][ error ] [8]Use of undefined constant CMF_ROOT - assumed 'CMF_ROOT'[/vagrant/thinkcmf5/app/config.php:11]
+[ info ] [ LOG ] INIT File
+[ 2020-07-17T03:04:52+00:00 ][ error ] [8]Use of undefined constant APP_DEBUG - assumed 'APP_DEBUG'[/vagrant/thinkcmf5/app/config.php:23]
+[ info ] [ LOG ] INIT File
+[ 2020-07-17T03:05:04+00:00 ][ error ] [8]Use of undefined constant CMF_PATH - assumed 'CMF_PATH'[/vagrant/thinkcmf5/app/config.php:29]
+[ info ] [ LOG ] INIT File
+[ 2020-07-17T03:05:36+00:00 ][ error ] [8]Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT'[/vagrant/thinkcmf5/app/config.php:29]
+[ info ] [ LOG ] INIT File
+[ 2020-07-17T03:05:46+00:00 ][ error ] [8]Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT'[/vagrant/thinkcmf5/app/config.php:29]
+[ info ] [ LOG ] INIT File
+[ 2020-07-17T03:06:38+00:00 ][ error ] [8]Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT'[/vagrant/thinkcmf5/app/config.php:29]
+[ info ] [ LOG ] INIT File
+[ 2020-07-17T11:06:54+08:00 ][ error ] [1]Class 'think\facade\Route' not found[/vagrant/thinkcmf5/simplewind/cmf/behavior/InitHookBehavior.php:30]
+[ info ] [ LOG ] INIT File
