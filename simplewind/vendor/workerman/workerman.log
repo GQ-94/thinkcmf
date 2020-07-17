@@ -1,0 +1,454 @@
+2020-07-17 11:08:30 pid:7636 Workerman[server.php] status 
+2020-07-17 11:08:30 pid:7636 Workerman[server.php] not run
+2020-07-17 11:08:33 pid:7637 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:11:32 pid:7637 Workerman[server.php] stopping ...
+2020-07-17 11:11:32 pid:7637 Workerman[server.php] has been stopped
+2020-07-17 11:11:35 pid:7701 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:11:54 pid:7708 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:13:42 pid:7772 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:24:18 pid:7772 Workerman[server.php] stopping ...
+2020-07-17 11:24:18 pid:7772 Workerman[server.php] has been stopped
+2020-07-17 11:24:27 pid:9291 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:25:21 pid:9291 Workerman[server.php] stopping ...
+2020-07-17 11:25:21 pid:9291 Workerman[server.php] has been stopped
+2020-07-17 11:25:23 pid:9297 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:25:34 pid:9297 Workerman[server.php] stopping ...
+2020-07-17 11:25:34 pid:9297 Workerman[server.php] has been stopped
+2020-07-17 11:25:35 pid:9302 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:26:21 pid:9302 Workerman[server.php] stopping ...
+2020-07-17 11:26:21 pid:9302 Workerman[server.php] has been stopped
+2020-07-17 11:34:33 pid:2435 Workerman[server.php] status 
+2020-07-17 11:34:33 pid:2435 Workerman[server.php] not run
+2020-07-17 11:34:37 pid:2436 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:37:03 pid:2436 Workerman[server.php] stopping ...
+2020-07-17 11:37:04 pid:2436 Workerman[server.php] has been stopped
+2020-07-17 11:37:06 pid:2442 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:37:57 pid:2442 Workerman[server.php] stopping ...
+2020-07-17 11:37:57 pid:2442 Workerman[server.php] has been stopped
+2020-07-17 11:40:00 pid:2507 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:40:28 pid:2507 Workerman[server.php] stopping ...
+2020-07-17 11:40:28 pid:2507 Workerman[server.php] has been stopped
+2020-07-17 11:40:29 pid:2509 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:40:31 pid:2509 Workerman[server.php] stopping ...
+2020-07-17 11:40:31 pid:2509 Workerman[server.php] has been stopped
+2020-07-17 11:40:38 pid:2512 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:47:41 pid:2512 Workerman[server.php] stopping ...
+2020-07-17 11:47:41 pid:2512 Workerman[server.php] has been stopped
+2020-07-17 11:47:43 pid:2519 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:47:46 pid:2519 Workerman[server.php] stopping ...
+2020-07-17 11:47:46 pid:2519 Workerman[server.php] has been stopped
+2020-07-17 11:48:06 pid:2521 Workerman[server.php] start in DEBUG mode
+2020-07-17 11:49:19 pid:2521 Workerman[server.php] stopping ...
+2020-07-17 11:49:19 pid:2521 Workerman[server.php] has been stopped
+2020-07-17 11:49:56 pid:2524 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:12:18 pid:2524 Workerman[server.php] stopping ...
+2020-07-17 14:12:18 pid:2524 Workerman[server.php] has been stopped
+2020-07-17 14:12:23 pid:2824 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:16:38 pid:2824 Workerman[server.php] stopping ...
+2020-07-17 14:16:38 pid:2824 Workerman[server.php] has been stopped
+2020-07-17 14:16:40 pid:2826 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:18:14 pid:2826 Workerman[server.php] stopping ...
+2020-07-17 14:18:14 pid:2826 Workerman[server.php] has been stopped
+2020-07-17 14:18:16 pid:2832 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:19:33 pid:2832 Workerman[server.php] stopping ...
+2020-07-17 14:19:33 pid:2832 Workerman[server.php] has been stopped
+2020-07-17 14:19:39 pid:2835 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:20:07 pid:2835 Workerman[server.php] stopping ...
+2020-07-17 14:20:07 pid:2835 Workerman[server.php] has been stopped
+2020-07-17 14:20:08 pid:2837 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:20:10 pid:2838 exception 'think\exception\ErrorException' with message 'json_decode() expects parameter 1 to be string, object given' in /vagrant/thinkcmf5/app/admin/controller/WorkerController.php:36
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'json_decode() e...', '/vagrant/thinkc...', 36, Array)
+#1 /vagrant/thinkcmf5/app/admin/controller/WorkerController.php(36): json_decode(Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: app\Admin\controller\WorkerController->onConnect(Object(Workerman\Connection\TcpConnection))
+#3 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(2475): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #83)
+#5 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Events/Select.php(292): call_user_func_array(Array, Array)
+#6 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(2408): Workerman\Events\Select->loop()
+#7 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#8 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#10 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(546): Workerman\Worker::forkWorkers()
+#11 /vagrant/thinkcmf5/simplewind/vendor/topthink/think-worker/src/Server.php(48): Workerman\Worker::runAll()
+#12 [internal function]: think\worker\Server->__construct()
+#13 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(359): ReflectionClass->newInstanceArgs(Array)
+#14 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/Loader.php(479): think\App::invokeClass('app\\admin\\contr...')
+#15 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(581): think\Loader::controller('worker', 'controller', true, 'Error')
+#16 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(457): think\App::module(Array, Array, NULL)
+#17 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#18 /vagrant/thinkcmf5/simplewind/thinkphp/start.php(19): think\App::run()
+#19 /vagrant/thinkcmf5/public/server.php(25): require('/vagrant/thinkc...')
+#20 {main}
+2020-07-17 14:20:10 pid:2838 Worker[2838] process terminated
+2020-07-17 14:20:10 pid:2837 worker[none:2838] exit with status 64000
+2020-07-17 14:20:33 pid:2837 Workerman[server.php] stopping ...
+2020-07-17 14:20:33 pid:2837 Workerman[server.php] has been stopped
+2020-07-17 14:20:36 pid:2842 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:20:39 pid:2843 exception 'think\exception\ErrorException' with message 'json_decode() expects parameter 1 to be string, object given' in /vagrant/thinkcmf5/app/admin/controller/WorkerController.php:36
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'json_decode() e...', '/vagrant/thinkc...', 36, Array)
+#1 /vagrant/thinkcmf5/app/admin/controller/WorkerController.php(36): json_decode(Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: app\Admin\controller\WorkerController->onConnect(Object(Workerman\Connection\TcpConnection))
+#3 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(2475): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #83)
+#5 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Events/Select.php(292): call_user_func_array(Array, Array)
+#6 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(2408): Workerman\Events\Select->loop()
+#7 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#8 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#10 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(546): Workerman\Worker::forkWorkers()
+#11 /vagrant/thinkcmf5/simplewind/vendor/topthink/think-worker/src/Server.php(48): Workerman\Worker::runAll()
+#12 [internal function]: think\worker\Server->__construct()
+#13 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(359): ReflectionClass->newInstanceArgs(Array)
+#14 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/Loader.php(479): think\App::invokeClass('app\\admin\\contr...')
+#15 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(581): think\Loader::controller('worker', 'controller', true, 'Error')
+#16 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(457): think\App::module(Array, Array, NULL)
+#17 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#18 /vagrant/thinkcmf5/simplewind/thinkphp/start.php(19): think\App::run()
+#19 /vagrant/thinkcmf5/public/server.php(25): require('/vagrant/thinkc...')
+#20 {main}
+2020-07-17 14:20:39 pid:2843 Worker[2843] process terminated
+2020-07-17 14:20:39 pid:2842 worker[none:2843] exit with status 64000
+2020-07-17 14:20:55 pid:2842 Workerman[server.php] stopping ...
+2020-07-17 14:20:55 pid:2842 Workerman[server.php] has been stopped
+2020-07-17 14:20:57 pid:2846 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:21:09 pid:2846 Workerman[server.php] stopping ...
+2020-07-17 14:21:09 pid:2846 Workerman[server.php] has been stopped
+2020-07-17 14:21:10 pid:2848 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:21:34 pid:2848 Workerman[server.php] stopping ...
+2020-07-17 14:21:34 pid:2848 Workerman[server.php] has been stopped
+2020-07-17 14:21:48 pid:2855 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:23:49 pid:2855 Workerman[server.php] stopping ...
+2020-07-17 14:23:49 pid:2855 Workerman[server.php] has been stopped
+2020-07-17 14:23:51 pid:2857 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:24:13 pid:2857 Workerman[server.php] stopping ...
+2020-07-17 14:24:13 pid:2857 Workerman[server.php] has been stopped
+2020-07-17 14:24:54 pid:2860 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:25:33 pid:2860 Workerman[server.php] stopping ...
+2020-07-17 14:25:33 pid:2860 Workerman[server.php] has been stopped
+2020-07-17 14:25:38 pid:3013 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:25:46 pid:3014 Worker[3014] process terminated with ERROR: E_ERROR "Cannot use object of type Workerman\Worker as array in /vagrant/thinkcmf5/app/admin/controller/WorkerController.php on line 36"
+2020-07-17 14:25:46 pid:3013 worker[none:3014] exit with status 65280
+2020-07-17 14:26:18 pid:3013 Workerman[server.php] stopping ...
+2020-07-17 14:26:18 pid:3013 Workerman[server.php] has been stopped
+2020-07-17 14:26:19 pid:3023 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:26:43 pid:3023 Workerman[server.php] stopping ...
+2020-07-17 14:26:43 pid:3023 Workerman[server.php] has been stopped
+2020-07-17 14:26:47 pid:3026 Workerman[server.php] start in DEBUG mode
+2020-07-17 14:28:49 pid:3026 Workerman[server.php] stopping ...
+2020-07-17 14:28:49 pid:3026 Workerman[server.php] has been stopped
+2020-07-17 14:28:51 pid:3028 Workerman[server.php] start in DAEMON mode
+2020-07-17 14:29:00 pid:3034 Workerman[server.php] status 
+2020-07-17 14:29:30 pid:3035 Workerman[server.php] status 
+2020-07-17 14:31:24 pid:3039 Workerman[server.php] reload 
+2020-07-17 14:31:24 pid:3030 Workerman[server.php] reloading
+2020-07-17 14:31:31 pid:3041 Workerman[server.php] status 
+2020-07-17 14:31:43 pid:3046 Workerman[server.php] restart 
+2020-07-17 14:31:43 pid:3046 Workerman[server.php] is stopping ...
+2020-07-17 14:31:43 pid:3030 Workerman[server.php] stopping ...
+2020-07-17 14:31:43 pid:3030 Workerman[server.php] has been stopped
+2020-07-17 14:31:43 pid:3046 Workerman[server.php] stop success
+2020-07-17 14:31:48 pid:3046 Workerman[server.php] stopping ...
+2020-07-17 14:31:48 pid:3046 Workerman[server.php] has been stopped
+2020-07-17 14:31:51 pid:3048 Workerman[server.php] restart 
+2020-07-17 14:31:51 pid:3048 Workerman[server.php] is stopping ...
+2020-07-17 14:31:51 pid:3048 Workerman[server.php] stop success
+2020-07-17 14:31:54 pid:3048 Workerman[server.php] stopping ...
+2020-07-17 14:31:54 pid:3048 Workerman[server.php] has been stopped
+2020-07-17 14:31:56 pid:3050 Workerman[server.php] restart 
+2020-07-17 14:31:56 pid:3050 Workerman[server.php] is stopping ...
+2020-07-17 14:31:56 pid:3050 Workerman[server.php] stop success
+2020-07-17 14:32:01 pid:3055 Workerman[server.php] status 
+2020-07-17 14:33:47 pid:3737 Workerman[server.php] restart 
+2020-07-17 14:33:47 pid:3737 Workerman[server.php] is stopping ...
+2020-07-17 14:33:47 pid:3052 Workerman[server.php] stopping ...
+2020-07-17 14:33:47 pid:3052 Workerman[server.php] has been stopped
+2020-07-17 14:33:47 pid:3737 Workerman[server.php] stop success
+2020-07-17 14:33:51 pid:3741 Workerman[server.php] restart 
+2020-07-17 14:33:51 pid:3741 Workerman[server.php] is stopping ...
+2020-07-17 14:33:51 pid:3739 Workerman[server.php] stopping ...
+2020-07-17 14:33:51 pid:3739 Workerman[server.php] has been stopped
+2020-07-17 14:33:51 pid:3741 Workerman[server.php] stop success
+2020-07-17 14:33:56 pid:3742 exception 'think\exception\ErrorException' with message 'Missing argument 2 for app\Admin\controller\WorkerController::onConnect()' in /vagrant/thinkcmf5/app/admin/controller/WorkerController.php:39
+Stack trace:
+#0 /vagrant/thinkcmf5/app/admin/controller/WorkerController.php(39): think\Error::appError(2, 'Missing argumen...', '/vagrant/thinkc...', 39, Array)
+#1 [internal function]: app\Admin\controller\WorkerController->onConnect(Object(Workerman\Connection\TcpConnection))
+#2 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(2475): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#3 [internal function]: Workerman\Worker->acceptConnection(Resource id #86)
+#4 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Events/Select.php(292): call_user_func_array(Array, Array)
+#5 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(2408): Workerman\Events\Select->loop()
+#6 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#7 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#9 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(546): Workerman\Worker::forkWorkers()
+#10 /vagrant/thinkcmf5/simplewind/vendor/topthink/think-worker/src/Server.php(48): Workerman\Worker::runAll()
+#11 [internal function]: think\worker\Server->__construct()
+#12 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(359): ReflectionClass->newInstanceArgs(Array)
+#13 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/Loader.php(479): think\App::invokeClass('app\\admin\\contr...')
+#14 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(581): think\Loader::controller('worker', 'controller', true, 'Error')
+#15 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(457): think\App::module(Array, Array, NULL)
+#16 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#17 /vagrant/thinkcmf5/simplewind/thinkphp/start.php(19): think\App::run()
+#18 /vagrant/thinkcmf5/public/server.php(25): require('/vagrant/thinkc...')
+#19 {main}
+2020-07-17 14:33:56 pid:3742 Worker[3742] process terminated
+2020-07-17 14:33:56 pid:3741 worker[wx_chat:3742] exit with status 64000
+2020-07-17 14:35:44 pid:3741 Workerman[server.php] stopping ...
+2020-07-17 14:35:44 pid:3741 Workerman[server.php] has been stopped
+2020-07-17 14:35:46 pid:3746 Workerman[server.php] restart 
+2020-07-17 14:35:46 pid:3746 Workerman[server.php] is stopping ...
+2020-07-17 14:35:46 pid:3746 Workerman[server.php] stop success
+2020-07-17 14:39:03 pid:3746 Workerman[server.php] stopping ...
+2020-07-17 14:39:03 pid:3746 Workerman[server.php] has been stopped
+2020-07-17 14:39:05 pid:3751 Workerman[server.php] restart 
+2020-07-17 14:39:05 pid:3751 Workerman[server.php] is stopping ...
+2020-07-17 14:39:05 pid:3751 Workerman[server.php] stop success
+2020-07-17 14:42:48 pid:3751 Workerman[server.php] stopping ...
+2020-07-17 14:42:48 pid:3751 Workerman[server.php] has been stopped
+2020-07-17 14:42:50 pid:3805 Workerman[server.php] restart 
+2020-07-17 14:42:50 pid:3805 Workerman[server.php] is stopping ...
+2020-07-17 14:42:50 pid:3805 Workerman[server.php] stop success
+2020-07-17 14:43:43 pid:3805 Workerman[server.php] stopping ...
+2020-07-17 14:43:43 pid:3805 Workerman[server.php] has been stopped
+2020-07-17 14:43:46 pid:3808 Workerman[server.php] restart 
+2020-07-17 14:43:46 pid:3808 Workerman[server.php] is stopping ...
+2020-07-17 14:43:46 pid:3808 Workerman[server.php] stop success
+2020-07-17 14:44:18 pid:3808 Workerman[server.php] stopping ...
+2020-07-17 14:44:18 pid:3808 Workerman[server.php] has been stopped
+2020-07-17 14:44:20 pid:3811 Workerman[server.php] restart 
+2020-07-17 14:44:20 pid:3811 Workerman[server.php] is stopping ...
+2020-07-17 14:44:20 pid:3811 Workerman[server.php] stop success
+2020-07-17 14:44:45 pid:3811 Workerman[server.php] stopping ...
+2020-07-17 14:44:45 pid:3811 Workerman[server.php] has been stopped
+2020-07-17 14:44:49 pid:3815 Workerman[server.php] restart 
+2020-07-17 14:44:49 pid:3815 Workerman[server.php] is stopping ...
+2020-07-17 14:44:49 pid:3815 Workerman[server.php] stop success
+2020-07-17 14:54:32 pid:3815 Workerman[server.php] stopping ...
+2020-07-17 14:54:33 pid:3815 Workerman[server.php] has been stopped
+2020-07-17 14:54:35 pid:3818 Workerman[server.php] restart 
+2020-07-17 14:54:35 pid:3818 Workerman[server.php] is stopping ...
+2020-07-17 14:54:35 pid:3818 Workerman[server.php] stop success
+2020-07-17 15:04:54 pid:3818 Workerman[server.php] stopping ...
+2020-07-17 15:04:54 pid:3818 Workerman[server.php] has been stopped
+2020-07-17 15:04:56 pid:3821 Workerman[server.php] restart 
+2020-07-17 15:04:56 pid:3821 Workerman[server.php] is stopping ...
+2020-07-17 15:04:56 pid:3821 Workerman[server.php] stop success
+2020-07-17 15:05:25 pid:3821 Workerman[server.php] stopping ...
+2020-07-17 15:05:25 pid:3821 Workerman[server.php] has been stopped
+2020-07-17 15:05:26 pid:3823 Workerman[server.php] restart 
+2020-07-17 15:05:26 pid:3823 Workerman[server.php] is stopping ...
+2020-07-17 15:05:26 pid:3823 Workerman[server.php] stop success
+2020-07-17 15:07:04 pid:3823 Workerman[server.php] stopping ...
+2020-07-17 15:07:04 pid:3823 Workerman[server.php] has been stopped
+2020-07-17 15:07:07 pid:3826 Workerman[server.php] restart 
+2020-07-17 15:07:07 pid:3826 Workerman[server.php] is stopping ...
+2020-07-17 15:07:07 pid:3826 Workerman[server.php] stop success
+2020-07-17 15:08:18 pid:3826 Workerman[server.php] stopping ...
+2020-07-17 15:08:18 pid:3826 Workerman[server.php] has been stopped
+2020-07-17 15:08:20 pid:3828 Workerman[server.php] restart 
+2020-07-17 15:08:20 pid:3828 Workerman[server.php] is stopping ...
+2020-07-17 15:08:20 pid:3828 Workerman[server.php] stop success
+2020-07-17 15:08:38 pid:3828 Workerman[server.php] stopping ...
+2020-07-17 15:08:38 pid:3828 Workerman[server.php] has been stopped
+2020-07-17 15:09:13 pid:3834 Workerman[server.php] restart 
+2020-07-17 15:09:13 pid:3834 Workerman[server.php] is stopping ...
+2020-07-17 15:09:13 pid:3834 Workerman[server.php] stop success
+2020-07-17 15:17:47 pid:3834 Workerman[server.php] stopping ...
+2020-07-17 15:17:47 pid:3834 Workerman[server.php] has been stopped
+2020-07-17 15:17:50 pid:3891 Workerman[server.php] restart 
+2020-07-17 15:17:50 pid:3891 Workerman[server.php] is stopping ...
+2020-07-17 15:17:50 pid:3891 Workerman[server.php] stop success
+2020-07-17 15:20:11 pid:3891 Workerman[server.php] stopping ...
+2020-07-17 15:20:11 pid:3892 exception 'think\exception\ErrorException' with message 'Object of class Workerman\Connection\TcpConnection could not be converted to string' in /vagrant/thinkcmf5/app/admin/controller/WorkerController.php:87
+Stack trace:
+#0 /vagrant/thinkcmf5/app/admin/controller/WorkerController.php(87): think\Error::appError(4096, 'Object of class...', '/vagrant/thinkc...', 87, Array)
+#1 [internal function]: app\Admin\controller\WorkerController->onClose(Object(Workerman\Connection\TcpConnection))
+#2 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Connection/TcpConnection.php(950): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#3 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Connection/TcpConnection.php(853): Workerman\Connection\TcpConnection->destroy()
+#4 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(2435): Workerman\Connection\TcpConnection->close()
+#5 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1850): Workerman\Worker->stop()
+#6 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1170): Workerman\Worker::stopAll()
+#7 [internal function]: Workerman\Worker::signalHandler(2)
+#8 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Events/Select.php(162): call_user_func_array('\\Workerman\\Work...', Array)
+#9 [internal function]: Workerman\Events\Select->signalHandler(2)
+#10 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Events/Select.php(261): pcntl_signal_dispatch()
+#11 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(2408): Workerman\Events\Select->loop()
+#12 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#13 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#14 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#15 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(546): Workerman\Worker::forkWorkers()
+#16 /vagrant/thinkcmf5/simplewind/vendor/topthink/think-worker/src/Server.php(48): Workerman\Worker::runAll()
+#17 [internal function]: think\worker\Server->__construct()
+#18 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(359): ReflectionClass->newInstanceArgs(Array)
+#19 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/Loader.php(479): think\App::invokeClass('app\\admin\\contr...')
+#20 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(581): think\Loader::controller('worker', 'controller', true, 'Error')
+#21 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(457): think\App::module(Array, Array, NULL)
+#22 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#23 /vagrant/thinkcmf5/simplewind/thinkphp/start.php(19): think\App::run()
+#24 /vagrant/thinkcmf5/public/server.php(25): require('/vagrant/thinkc...')
+#25 {main}
+2020-07-17 15:20:11 pid:3891 worker[wx_chat:3892] exit with status 64000
+2020-07-17 15:20:11 pid:3891 Workerman[server.php] has been stopped
+2020-07-17 15:20:14 pid:3894 Workerman[server.php] restart 
+2020-07-17 15:20:14 pid:3894 Workerman[server.php] is stopping ...
+2020-07-17 15:20:14 pid:3894 Workerman[server.php] stop success
+2020-07-17 15:20:50 pid:3894 Workerman[server.php] stopping ...
+2020-07-17 15:20:51 pid:3894 Workerman[server.php] has been stopped
+2020-07-17 15:21:00 pid:3900 Workerman[server.php] start in DEBUG mode
+2020-07-17 15:22:34 pid:3900 Workerman[server.php] stopping ...
+2020-07-17 15:22:34 pid:3900 Workerman[server.php] has been stopped
+2020-07-17 15:22:37 pid:3903 Workerman[server.php] start in DEBUG mode
+2020-07-17 15:26:19 pid:4067 Workerman[server.php] status 
+2020-07-17 15:34:04 pid:3903 Workerman[server.php] stopping ...
+2020-07-17 15:34:04 pid:3903 Workerman[server.php] has been stopped
+2020-07-17 15:34:06 pid:4069 Workerman[server.php] start in DEBUG mode
+2020-07-17 15:34:14 pid:4072 Workerman[server.php] status 
+2020-07-17 15:34:30 pid:4070 exception 'think\exception\PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'openid' in 'where clause'' in /vagrant/thinkcmf5/simplewind/thinkphp/library/think/db/Connection.php:385
+Stack trace:
+#0 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/db/Query.php(255): think\db\Connection->query('SELECT * FROM `...', Array, false, false)
+#1 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/db/Query.php(2686): think\db\Query->query('SELECT * FROM `...', Array, false, false)
+#2 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/Model.php(1707): think\db\Query->find(NULL)
+#3 /vagrant/thinkcmf5/app/admin/controller/WorkerController.php(116): think\Model::get(Array)
+#4 /vagrant/thinkcmf5/app/admin/controller/WorkerController.php(44): app\Admin\controller\WorkerController->userAuthentication('oZcEo43bXi90Zna...')
+#5 [internal function]: app\Admin\controller\WorkerController->app\Admin\controller\{closure}(Object(Workerman\Connection\TcpConnection), 'GET / HTTP/1.1\r...')
+#6 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Protocols/Websocket.php(392): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'GET / HTTP/1.1\r...')
+#7 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake('GET / HTTP/1.1\r...', Object(Workerman\Connection\TcpConnection))
+#8 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Protocols/Http.php(183): Workerman\Protocols\Websocket::input('GET / HTTP/1.1\r...', Object(Workerman\Connection\TcpConnection))
+#9 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Connection/TcpConnection.php(656): Workerman\Protocols\Http::decode('GET / HTTP/1.1\r...', Object(Workerman\Connection\TcpConnection))
+#10 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #91)
+#11 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Events/Select.php(292): call_user_func_array(Array, Array)
+#12 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(2408): Workerman\Events\Select->loop()
+#13 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#14 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#15 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#16 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(546): Workerman\Worker::forkWorkers()
+#17 /vagrant/thinkcmf5/simplewind/vendor/topthink/think-worker/src/Server.php(48): Workerman\Worker::runAll()
+#18 [internal function]: think\worker\Server->__construct()
+#19 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(359): ReflectionClass->newInstanceArgs(Array)
+#20 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/Loader.php(479): think\App::invokeClass('app\\admin\\contr...')
+#21 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(581): think\Loader::controller('worker', 'controller', true, 'Error')
+#22 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(457): think\App::module(Array, Array, NULL)
+#23 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#24 /vagrant/thinkcmf5/simplewind/thinkphp/start.php(19): think\App::run()
+#25 /vagrant/thinkcmf5/public/server.php(25): require('/vagrant/thinkc...')
+#26 {main}
+2020-07-17 15:34:30 pid:4070 Worker[4070] process terminated
+2020-07-17 15:34:30 pid:4069 worker[wx_chat:4070] exit with status 64000
+2020-07-17 15:34:57 pid:4069 Workerman[server.php] stopping ...
+2020-07-17 15:34:57 pid:4069 Workerman[server.php] has been stopped
+2020-07-17 15:35:00 pid:4075 Workerman[server.php] start in DEBUG mode
+2020-07-17 15:35:03 pid:4077 Workerman[server.php] status 
+2020-07-17 15:35:31 pid:4079 Workerman[server.php] status 
+2020-07-17 15:35:47 pid:4080 Workerman[server.php] status 
+2020-07-17 15:36:11 pid:4081 Workerman[server.php] status 
+2020-07-17 15:40:28 pid:4075 Workerman[server.php] stopping ...
+2020-07-17 15:40:28 pid:4075 Workerman[server.php] has been stopped
+2020-07-17 15:40:31 pid:4138 Workerman[server.php] start in DEBUG mode
+2020-07-17 15:40:40 pid:4139 exception 'think\exception\ErrorException' with message 'Undefined property: Workerman\Connection\TcpConnection::$uid' in /vagrant/thinkcmf5/app/admin/controller/WorkerController.php:89
+Stack trace:
+#0 /vagrant/thinkcmf5/app/admin/controller/WorkerController.php(89): think\Error::appError(8, 'Undefined prope...', '/vagrant/thinkc...', 89, Array)
+#1 [internal function]: app\Admin\controller\WorkerController->onClose(Object(Workerman\Connection\TcpConnection))
+#2 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Connection/TcpConnection.php(950): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#3 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Connection/TcpConnection.php(853): Workerman\Connection\TcpConnection->destroy()
+#4 /vagrant/thinkcmf5/app/admin/controller/WorkerController.php(44): Workerman\Connection\TcpConnection->close()
+#5 [internal function]: app\Admin\controller\WorkerController->app\Admin\controller\{closure}(Object(Workerman\Connection\TcpConnection), 'GET / HTTP/1.1\r...')
+#6 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Protocols/Websocket.php(392): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'GET / HTTP/1.1\r...')
+#7 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake('GET / HTTP/1.1\r...', Object(Workerman\Connection\TcpConnection))
+#8 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Protocols/Http.php(183): Workerman\Protocols\Websocket::input('GET / HTTP/1.1\r...', Object(Workerman\Connection\TcpConnection))
+#9 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Connection/TcpConnection.php(656): Workerman\Protocols\Http::decode('GET / HTTP/1.1\r...', Object(Workerman\Connection\TcpConnection))
+#10 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #89)
+#11 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Events/Select.php(292): call_user_func_array(Array, Array)
+#12 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(2408): Workerman\Events\Select->loop()
+#13 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#14 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#15 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#16 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(546): Workerman\Worker::forkWorkers()
+#17 /vagrant/thinkcmf5/simplewind/vendor/topthink/think-worker/src/Server.php(48): Workerman\Worker::runAll()
+#18 [internal function]: think\worker\Server->__construct()
+#19 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(359): ReflectionClass->newInstanceArgs(Array)
+#20 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/Loader.php(479): think\App::invokeClass('app\\admin\\contr...')
+#21 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(581): think\Loader::controller('worker', 'controller', true, 'Error')
+#22 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(457): think\App::module(Array, Array, NULL)
+#23 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#24 /vagrant/thinkcmf5/simplewind/thinkphp/start.php(19): think\App::run()
+#25 /vagrant/thinkcmf5/public/server.php(25): require('/vagrant/thinkc...')
+#26 {main}
+2020-07-17 15:40:40 pid:4139 Worker[4139] process terminated
+2020-07-17 15:40:40 pid:4138 worker[wx_chat:4139] exit with status 64000
+2020-07-17 15:41:59 pid:4138 Workerman[server.php] stopping ...
+2020-07-17 15:41:59 pid:4138 Workerman[server.php] has been stopped
+2020-07-17 15:42:01 pid:4143 Workerman[server.php] start in DEBUG mode
+2020-07-17 15:42:31 pid:4145 Workerman[server.php] status 
+2020-07-17 15:46:44 pid:4143 Workerman[server.php] stopping ...
+2020-07-17 15:46:44 pid:4143 Workerman[server.php] has been stopped
+2020-07-17 15:46:48 pid:4146 Workerman[server.php] start in DAEMON mode
+2020-07-17 15:46:52 pid:4150 Workerman[server.php] status 
+2020-07-17 15:47:58 pid:4153 Workerman[server.php] status 
+2020-07-17 15:48:13 pid:4154 Workerman[server.php] status 
+2020-07-17 15:48:28 pid:4155 Workerman[server.php] status 
+2020-07-17 15:48:42 pid:4156 Workerman[server.php] status 
+2020-07-17 15:48:50 pid:4157 Workerman[server.php] status 
+2020-07-17 15:49:01 pid:4159 Workerman[server.php] status 
+2020-07-17 16:40:46 pid:4269 Workerman[server.php] status 
+2020-07-17 16:41:21 pid:4149 exception 'Exception' with message 'You can't send(NULL) to client, you need to convert it to a string. ' in /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Protocols/Websocket.php:236
+Stack trace:
+#0 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Connection/TcpConnection.php(344): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /vagrant/thinkcmf5/app/admin/controller/WorkerController.php(80): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: app\Admin\controller\WorkerController->onMessage(Object(Workerman\Connection\TcpConnection), '[\xE5\x93\x88\xE6\xAC\xA0][\xE5\x93\x88\xE6\xAC\xA0...')
+#3 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Connection/TcpConnection.php(656): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '[\xE5\x93\x88\xE6\xAC\xA0][\xE5\x93\x88\xE6\xAC\xA0...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #128)
+#5 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Events/Select.php(292): call_user_func_array(Array, Array)
+#6 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(2408): Workerman\Events\Select->loop()
+#7 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#8 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#10 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(546): Workerman\Worker::forkWorkers()
+#11 /vagrant/thinkcmf5/simplewind/vendor/topthink/think-worker/src/Server.php(48): Workerman\Worker::runAll()
+#12 [internal function]: think\worker\Server->__construct()
+#13 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(359): ReflectionClass->newInstanceArgs(Array)
+#14 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/Loader.php(479): think\App::invokeClass('app\\admin\\contr...')
+#15 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(581): think\Loader::controller('worker', 'controller', true, 'Error')
+#16 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(457): think\App::module(Array, Array, NULL)
+#17 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#18 /vagrant/thinkcmf5/simplewind/thinkphp/start.php(19): think\App::run()
+#19 /vagrant/thinkcmf5/public/server.php(25): require('/vagrant/thinkc...')
+#20 {main}
+2020-07-17 16:41:21 pid:4149 Worker[4149] process terminated
+2020-07-17 16:41:21 pid:4148 worker[wx_chat:4149] exit with status 64000
+2020-07-17 16:41:32 pid:4271 Workerman[server.php] status 
+2020-07-17 16:41:39 pid:4272 Workerman[server.php] start in DEBUG mode
+2020-07-17 16:41:39 pid:4272 Workerman[server.php] already running
+2020-07-17 16:41:43 pid:4273 Workerman[server.php] restart 
+2020-07-17 16:41:44 pid:4273 Workerman[server.php] is stopping ...
+2020-07-17 16:41:44 pid:4148 Workerman[server.php] stopping ...
+2020-07-17 16:41:44 pid:4148 Workerman[server.php] has been stopped
+2020-07-17 16:41:44 pid:4273 Workerman[server.php] stop success
+2020-07-17 16:41:51 pid:4274 exception 'think\exception\ErrorException' with message 'Undefined index: message_type' in /vagrant/thinkcmf5/app/admin/controller/WorkerController.php:83
+Stack trace:
+#0 /vagrant/thinkcmf5/app/admin/controller/WorkerController.php(83): think\Error::appError(8, 'Undefined index...', '/vagrant/thinkc...', 83, Array)
+#1 [internal function]: app\Admin\controller\WorkerController->onMessage(Object(Workerman\Connection\TcpConnection), '{"message": "",...')
+#2 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Connection/TcpConnection.php(656): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"message": "",...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #92)
+#4 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Events/Select.php(292): call_user_func_array(Array, Array)
+#5 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(2408): Workerman\Events\Select->loop()
+#6 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#7 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#9 /vagrant/thinkcmf5/simplewind/vendor/workerman/workerman/Worker.php(546): Workerman\Worker::forkWorkers()
+#10 /vagrant/thinkcmf5/simplewind/vendor/topthink/think-worker/src/Server.php(48): Workerman\Worker::runAll()
+#11 [internal function]: think\worker\Server->__construct()
+#12 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(359): ReflectionClass->newInstanceArgs(Array)
+#13 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/Loader.php(479): think\App::invokeClass('app\\admin\\contr...')
+#14 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(581): think\Loader::controller('worker', 'controller', true, 'Error')
+#15 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(457): think\App::module(Array, Array, NULL)
+#16 /vagrant/thinkcmf5/simplewind/thinkphp/library/think/App.php(139): think\App::exec(Array, Array)
+#17 /vagrant/thinkcmf5/simplewind/thinkphp/start.php(19): think\App::run()
+#18 /vagrant/thinkcmf5/public/server.php(25): require('/vagrant/thinkc...')
+#19 {main}
+2020-07-17 16:41:51 pid:4274 Worker[4274] process terminated
+2020-07-17 16:41:51 pid:4273 worker[wx_chat:4274] exit with status 64000
+2020-07-17 16:46:43 pid:4273 Workerman[server.php] stopping ...
+2020-07-17 16:46:43 pid:4273 Workerman[server.php] has been stopped
+2020-07-17 16:46:46 pid:4277 Workerman[server.php] restart 
+2020-07-17 16:46:46 pid:4277 Workerman[server.php] is stopping ...
+2020-07-17 16:46:46 pid:4277 Workerman[server.php] stop success

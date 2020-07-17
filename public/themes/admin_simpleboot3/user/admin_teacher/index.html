@@ -1,0 +1,90 @@
+<include file="public@header"/>
+<style>
+    .r{ color: #FF5722;}
+    .g{color: #16ab00}
+</style>
+</head>
+<body>
+<div class="wrap">
+    <ul class="nav nav-tabs">
+        <li class="active"><a>导师列表</a></li>
+        <li><a href="{:url('user/adminTeacher/create')}">新增导师</a></li>
+        <li><a href="{:url('user/adminTeacher/report')}">导师报表</a></li>
+    </ul>
+
+    <php>$status=['1'=>"正常",2=>"停用"];</php>
+    <form class="well form-inline margin-top-20" method="post" action="{:url('user/adminTeacher/index')}">
+        关键字：
+        <input class="form-control" type="text" name="keyword" style="width: 200px;" value="{:input('request.keyword/s','')}" placeholder="输入姓名/昵称">
+        状态：
+        <select name="user_status" class="form-control valid">
+            <option value="">全部</option>
+            <volist id="vo" name="$status">
+                <php>$selected_status=input("user_status")==$key?"selected":""</php>
+                <option value="{$key}" {$selected_status}>{$vo}</option>
+            </volist>
+        </select>
+        <input type="submit" class="btn btn-primary" value="搜索"/>
+        <a class="btn btn-danger" href="{:url('user/adminTeacher/index')}">清空</a>
+    </form>
+
+    <form method="post" class="js-ajax-form">
+        <table class="table table-hover table-bordered">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>导师姓名</th>
+                <th>微信昵称</th>
+                <th>专业</th>
+                <th>学员数量</th>
+                <th>当前开放可选课时间</th>
+                <th>用户状态</th>
+                <th>上课方式</th>
+                <th>{:lang('ACTIONS')}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <php>
+                $user_statuses=array("0"=>lang('USER_STATUS_BLOCKED'),"1"=>lang('USER_STATUS_ACTIVATED'),"2"=>lang('USER_STATUS_UNVERIFIED'));
+            </php>
+            <foreach name="list" item="vo">
+                <tr>
+                    <td>{$vo.id}</td>
+                    <td>{$vo['username']?$vo['username']:($vo['mobile']?$vo['mobile']:lang('THIRD_PARTY_USER'))}</td>
+                    <td>{$vo['nickname']?$vo['nickname']:lang('NOT_FILLED')}</td>
+                    <td>{$vo.profession_name|default='—————'}</td>
+                    <td>{$vo.student_sum}</td>
+                    <td>时间</td>
+                    <td class="{$vo.user_status==1?'g':'r'}">{$status[$vo['user_status']]}</td>
+                    <td>{$vo.way_of_attend}</td>
+                    <td>
+                        <a class="btn btn-xs btn-success" href="{:url('user/adminTeacher/read',['id'=>$vo['id']])}">查看详情</a>
+                        <a class="btn btn-xs btn-info" href="{:url('project_study/teacher',['teacher_id'=>$vo['id']])}">查看项目</a>
+                        <if condition="$vo.open_id">
+                            <a  class="btn btn-xs btn-warning" href="{:url('user/adminTeacher/edit',['id'=>$vo['id']])}">编辑</a>
+                        </if>
+                        <a class="status btn btn-xs btn-danger" href="{:url('user/adminTeacher/status',['id'=>$vo['id']])}">{$vo.user_status==1?"停用":"启用"}</a>
+                    </td>
+                </tr>
+            </foreach>
+            </tbody>
+        </table>
+        <div class="pagination">{$page}</div>
+    </form>
+</div>
+
+<script src="__STATIC__/js/admin.js"></script>
+<script>
+    $(".table a.status").on('click', function (e) {
+        e.preventDefault();     // 取消事件的默认动作
+        e.stopPropagation();    // 不再派发事件
+        let that = $(this);
+        layer.confirm("确定要" + that.text() + "此导师吗?", function () {
+            request({
+                url: that.attr("href")
+            })
+        })
+    });
+</script>
+</body>
+</html>

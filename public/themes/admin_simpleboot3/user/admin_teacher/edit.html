@@ -1,0 +1,97 @@
+<include file="public@header" />
+</head>
+<body>
+<div class="wrap">
+    <ul class="nav nav-tabs">
+        <li><a href="{:url('user/adminTeacher/index')}">导师列表</a></li>
+        <li class="active"><a>编辑导师</a></li>
+        <li><a href="{:url('user/adminTeacher/info',['id'=>$info['id']])}">导师面板</a></li>
+    </ul>
+
+    <form  method="post" class="form-horizontal js-ajax-form margin-top-20"  action="{:url('user/adminTeacher/update')}">
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">导师官网ID</label>
+            <div class="col-md-6 col-sm-6">
+                <input type="text" placeholder="请输入导师官网ID" name="magento_id" class="form-control" value="{$info.magento_id}" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">导师姓名</label>
+            <input type="hidden" name="id" value="{$info.id}">
+            <div class="col-md-6 col-sm-6">
+                <input type="text" placeholder="请输入导师姓名" name="username" class="form-control" value="{$info.username}" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">院校</label>
+            <div class="col-sm-4">
+                <select id="school" name="school" class="selectpicker show-tick form-control" data-actions-box="true" data-live-search="true">
+                    <?php foreach($school_list as $vo) :?>
+                    <option value="{$vo.id}" {$info.school != $vo.id?'':'selected'}>{$vo.name}</option>
+                    <?php endforeach;?>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">专业</label>
+            <div class="col-md-6 col-sm-6">
+                <input type="text" placeholder="请输入专业" name="profession_name" class="form-control" value="{$info.profession_name}" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">邮箱</label>
+            <div class="col-md-6 col-sm-6">
+                <input type="text" placeholder="请输入邮箱" disabled name="email" class="form-control" value="{$info.email}" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">上课方式</label>
+            <div class="col-md-6 col-sm-6">
+                <input type="text" class="form-control" maxlength="100" placeholder="上课方式" name="way_of_attend" value="{$info.way_of_attend}">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">月上课次数</label>
+            <div class="col-md-6 col-sm-6">
+                <input type="text" class="form-control" maxlength="100" placeholder="月上课次数" name="course_count" value="{$info.course_count}">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">导师标签</label>
+            <div class="col-sm-4">
+                <select id="tag_ids" name="tag_ids[]" class="selectpicker show-tick form-control" multiple data-actions-box="true" data-live-search="true">
+                    <?php foreach($tags as $vo) :?>
+                    <option value="{$vo.id}">{$vo.tag_name}</option>
+                    <?php endforeach;?>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">备注</label>
+            <div class="col-md-6 col-sm-6">
+                <textarea name="remark" placeholder="备注" class="form-control" cols="30" rows="10">{$info.remark}</textarea>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label  class="col-sm-2 control-label"></label>
+            <div class="col-md-6 col-sm-10">
+                <button   class="btn btn-primary js-ajax-submit" id="save">保存</button>
+                <a href="javascript:history.back(-1);" style="margin-left: 30px;" class="btn btn-default">取消</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script src="__STATIC__/js/admin.js"></script>
+</body>
+</html>
