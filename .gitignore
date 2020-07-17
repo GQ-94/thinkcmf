@@ -4,6 +4,6 @@
 .settings
 .idea
 composer.lock
-/data
 /public/upload/
 /simplewind/vendor
+/runtime/
