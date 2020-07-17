@@ -6,3 +6,4 @@
 composer.lock
 /data
 /public/upload/
+/simplewind/vendor
