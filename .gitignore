@@ -4,7 +4,7 @@
 .settings
 .idea
 composer.lock
-/simplewind/vendor
+/simplewind/vendor/
 /data
 /public/plugins/
 /public/themes/

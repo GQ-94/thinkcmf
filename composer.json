@@ -31,7 +31,8 @@
         "electrolinux/phpquery": "^0.9.6",
         "topthink/think-worker": "1.0.*",
         "topthink/think-migration": "1.1.*",
-        "phpoffice/phpspreadsheet": "1.8.*"
+        "phpoffice/phpspreadsheet": "1.8.*",
+        "dompdf/dompdf": "0.8.3"
     },
     "extra": {
         "think-path": "simplewind/thinkphp"
