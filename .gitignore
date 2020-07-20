@@ -4,6 +4,10 @@
 .settings
 .idea
 composer.lock
-/public/upload/
 /simplewind/vendor
-/runtime/
+/data
+/public/plugins/
+/public/themes/
+/public/upload/
+/public/.htaccess
+/public/router.php
